@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap');
+
+html {
+    --nord-color: #2e3440;
+    background-color: var(--nord-color);
+    color: white;
+    font-family: "Playpen Sans Deva", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+
+a:hover {
+    color: #81a1c1;
+    transition: 300ms;
+}
+
+#main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.group-title{
+    text-align:center;
+}
+.group {
+    background-color: #3b4252;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.child {
+    background-color: #434c5e;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin-top: 1vh;
+}
+
+.child:hover {
+    background-color: #4c566a;
+}
+
+.child a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+}
