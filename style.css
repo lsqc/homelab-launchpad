@@ -37,7 +37,7 @@ a:hover {
     flex-direction: column;
     gap: 10px;
     min-width: 200px;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 .child {
