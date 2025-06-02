@@ -2,8 +2,10 @@
 
 html {
     --nord-color: #2e3440;
-    background-color: var(--nord-color);
+/**    background-color: var(--nord-color);*/
     color: white;
+    background-repeat:repeat;
+    background-image: url('cat.png');
     font-family: "Playpen Sans Deva", cursive;
 }
 
