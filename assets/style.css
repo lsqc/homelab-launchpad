@@ -7,7 +7,7 @@
 html {
     color: white;
     background-repeat:repeat;
-    font-family:'bytebounce';
+    font-family:'bytebounce',sans-serif;
     background-image: url('cat.png');
 }
 
@@ -43,6 +43,7 @@ a:hover {
     /*   font-family:'bytebounce', sans-serif;*/
     text-align:center;
     width:max-content;
+    color:lightgray;
     font-weight:bold;
     text-decoration:underline;
     text-decoration-thickness: 10px;
@@ -57,7 +58,6 @@ a:hover {
     flex-direction: column;
     min-width: 200px;
     max-width: 600px;
-    margin-top: 35px;
 }
 
 .child {
@@ -69,6 +69,7 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
+    height:min-content;
 }
 
 .logo {
@@ -88,14 +89,15 @@ a:hover {
 .rainbow-text{
     font-size: 60px;
     font-weight: bold;
-    background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red, white);
+    background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red);
     background-size: 800%;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    animation: rainbow 1s linear infinite;
+    animation: rainbow 2s linear infinite;
 }
+
 @keyframes colored-underline {
     0% {
         text-decoration-color:#396BA5;
@@ -104,7 +106,7 @@ a:hover {
         text-decoration-color:white;
     }
     100%{
-        text-decoration-color:#396BA5;
+        text-decoration-color:yellow;
     }
 }
 @keyframes rainbow {
@@ -115,3 +117,26 @@ a:hover {
         background-position: 100% 50%;
     }
 }
+
+/* shit for new tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+table, th, td {
+  border: 1px solid #444;
+  padding: 0.5rem;
+  font-family:sans-serif;
+}
+
+tr:nth-child(odd) {
+  background-color:#446688; 
+}
+
+tr:nth-child(even) {
+  background-color: #6688AA;
+}
+
