@@ -6,7 +6,7 @@ html {
     color: white;
     background-repeat:repeat;
     background-image: url('cat.png');
-    font-family: "Playpen Sans Deva", cursive;
+/**    font-family: "Playpen Sans Deva", cursive;*/
 }
 
 a {
@@ -28,30 +28,35 @@ a:hover {
     flex-wrap: wrap;
 }
 
+.spacer {
+    background-color: #060561;
+    height: 20px;
+    padding:0;
+    margin:0;
+    width:100%;
+    border:1px solid white;
+}
+
 .group-title{
     text-align:center;
 }
+
 .group {
-    background-color: #3b4252;
+    background-color:#396CA5; 
     padding: 20px;
-    border-radius: 12px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     min-width: 200px;
     max-width: 600px;
+    margin-top: 35px;
 }
 
 .child {
-    background-color: #434c5e;
+    background-color: #4e6882;
     padding: 15px;
-    border-radius: 8px;
     transition: background-color 0.3s;
     margin-top: 1vh;
-}
-
-.child:hover {
-    background-color: #4c566a;
 }
 
 .child a {
@@ -61,8 +66,8 @@ a:hover {
 }
 
 .logo {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
 }
 
 .container {
