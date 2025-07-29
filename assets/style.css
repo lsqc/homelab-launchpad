@@ -1,24 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap');
-@font-face {
-    font-family:'bytebounce';
-    src: url('bytebounce.ttf');
-}
-
 html {
     color: white;
     background-repeat:repeat;
-    font-family:'bytebounce',sans-serif;
-    background-image: url('cat.png');
+    font-family:sans-serif;
+    background-color: #396BA5;
 }
 
 a {
     text-decoration: none;
     color: white;
-    transition: 300ms;
-}
-
-a:hover {
-    color: #81a1c1;
     transition: 300ms;
 }
 
@@ -40,14 +29,11 @@ a:hover {
 }
 
 .group-title{
-    /*   font-family:'bytebounce', sans-serif;*/
     text-align:center;
     width:max-content;
     color:lightgray;
     font-weight:bold;
-    text-decoration:underline;
-    text-decoration-thickness: 10px;
-    font-size:6vh;
+    font-size:3vh;
     animation: colored-underline 1s linear infinite;
 }
 
@@ -98,17 +84,6 @@ a:hover {
     animation: rainbow 2s linear infinite;
 }
 
-@keyframes colored-underline {
-    0% {
-        text-decoration-color:#396BA5;
-    }
-    50%{
-        text-decoration-color:white;
-    }
-    100%{
-        text-decoration-color:yellow;
-    }
-}
 @keyframes rainbow {
     0% {
         background-position: 0% 50%;
